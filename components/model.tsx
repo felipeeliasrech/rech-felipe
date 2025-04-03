@@ -21,21 +21,18 @@ export default function Model(){
 
 		const camera = new THREE.PerspectiveCamera(75, sceneWidth/sceneHeight, 0.1, 1000)
 
-		const ambientLight = new THREE.AmbientLight(0x404040, 0.2)
+		const ambientLight = new THREE.AmbientLight(0x404040, 0.7)
 		scene.add(ambientLight)
 
-		const directionalLight = new THREE.DirectionalLight(0xffffff,.5)
+		const directionalLight = new THREE.DirectionalLight(0xffffff,.4)
 		scene.add(directionalLight)
 
-		const light = new THREE.PointLight(0xc4c4c4,0.5);
+		const light = new THREE.PointLight(0xc4c4c4,0.9);
 		scene.add(light)
 
 		const gltfloader = new GLTFLoader()
 		gltfloader.load('f22/scene.gltf', (gltf) =>{
 			const model = gltf.scene
-			model.traverse((obj)=>{
-				obj.material = new THREE.MeshStandardMaterial({metalness: 0.5})
-			})
 			model.scale.set(0.01,0.01,0.01)
 			model.position.set(0, 3, 0)
 			scene.add(model)
