@@ -15,7 +15,7 @@ export default function Header() {
 					alt=""
 					className="-rotate-45 dark:invert"
 				/>
-				<h1 className="text-xl font-bold">Felipe Elias Rech</h1>
+				<h1 className="text-xl font-bold"><Link href='/'>Felipe Elias Rech</Link></h1>
 			</span>
 			<ul>
 				<li>

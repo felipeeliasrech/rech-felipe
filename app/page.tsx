@@ -2,7 +2,6 @@ import { Code, GithubIcon, LinkedinIcon } from "lucide-react";
 import Link from "next/link";
 
 export default async function Home() {
-
   return (
     <div>
       <div>
@@ -19,11 +18,15 @@ export default async function Home() {
             Skills
           </h1>
           <ul>
-              <li
-                className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg"
-              >
-                TESTE
-              </li>
+            <li className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">
+              Typescript
+            </li>
+            <li className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">
+              C#
+            </li>
+            <li className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">
+              MySQL
+            </li>
           </ul>
         </div>
         <div className="w-[500px] m-auto mt-[15px]">
