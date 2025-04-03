@@ -1,7 +1,6 @@
 import styles from "@/components/styles.module.css";
 import Link from "next/link";
 import ThemeChanger from "@/components/theme";
-import SvgGithub from "@/components/svg/github";
 import Image from "next/image";
 import { GithubIcon } from "lucide-react";
 
