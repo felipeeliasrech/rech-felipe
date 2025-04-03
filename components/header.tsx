@@ -2,18 +2,19 @@ import styles from "@/components/styles.module.css";
 import Link from "next/link";
 import ThemeChanger from "@/components/theme";
 import SvgGithub from "@/components/svg/github";
- import Image from "next/image";
+import Image from "next/image";
+import { GithubIcon } from "lucide-react";
 
 export default function Header() {
 	return (
 		<div className={styles.header}>
 			<span className="flex">
 				<Image
-					src='/cat.png'
+					src="/cat.png"
 					width={32}
 					height={32}
-					alt=''
-					className='-rotate-45 dark:invert'
+					alt=""
+					className="-rotate-45 dark:invert"
 				/>
 				<h1 className="text-xl font-bold">Felipe Elias Rech</h1>
 			</span>
@@ -24,7 +25,7 @@ export default function Header() {
 					</Link>
 				</li>
 				<li>
-					<SvgGithub />
+					<GithubIcon className="float-left" />
 					<Link
 						href="https://github.com/felipeeliasrech/rech-felipe"
 						target="_blank"
