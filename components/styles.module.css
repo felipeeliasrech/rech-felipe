@@ -1,0 +1,18 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-right: 5%;
+	margin-inline: 20%;
+	position: sticky;
+	top: 0;
+	backdrop-filter: blur(45px);
+	margin-bottom: 30px;
+}
+
+.header ul {
+	list-style: none;
+	gap: 20px;
+	display: flex;
+	margin-top: 13px;
+}
