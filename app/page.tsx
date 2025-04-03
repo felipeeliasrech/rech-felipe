@@ -22,7 +22,12 @@ export default async function Home() {
           </h1>
           <ul>
             {data.map((skill: any) => (
-              <li key={skill.id} className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">{skill.title}</li>
+              <li
+                key={skill.id}
+                className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg"
+              >
+                {skill.title}
+              </li>
             ))}
           </ul>
         </div>
