@@ -19,10 +19,19 @@ export default async function Home() {
           </h1>
           <ul>
             <li className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">
+              JavaScript
+            </li>
+            <li className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">
               Typescript
             </li>
             <li className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">
-              C#
+              React
+            </li>
+            <li className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">
+              NextJS
+            </li>
+            <li className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">
+              C#/.NET
             </li>
             <li className="p-[5px] bg-sky-500 inline-block mr-[5px] rounded-lg">
               MySQL
